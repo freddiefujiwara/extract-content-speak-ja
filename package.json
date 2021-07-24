@@ -1,0 +1,29 @@
+{
+  "name": "extract-content-speak-ja",
+  "version": "1.0.0",
+  "description": "A Bookmarklet that extracts text and speaks (Japanese only)",
+  "scripts": {
+    "test": "echo OK",
+    "build": "cat ./extract-content-javascript/lib/extract-content-all.js ./src/index.js > src/bookmarklet.js && npx webpack build && npx marked README.md > dist/index.html && cp HowToInstall.gif dist && echo '<a href=\"javascript:'`cat dist/bookmarklet.min.js | perl -MURI::Escape -wlne 'print uri_escape($_,\" %<>#@&?\\\"\")'`'\">ExtractContentSpeakJa</a>'>> dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddiefujiwara/extract-content-speak-ja.git"
+  },
+  "keywords": [
+    "Bookmarklet"
+  ],
+  "author": "Fumikazu Fujiwara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddiefujiwara/extract-content-speak-ja/issues"
+  },
+  "homepage": "https://github.com/freddiefujiwara/extract-content-speak-ja#readme",
+  "devDependencies": {
+    "marked": "^0.3.19",
+    "webpack": "^5.46.0"
+  },
+  "dependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}

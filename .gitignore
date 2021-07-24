@@ -90,6 +90,7 @@ dist
 
 # vuepress build output
 .vuepress/dist
+src/bookmarklet.js 
 
 # Serverless directories
 .serverless/

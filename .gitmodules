@@ -1,0 +1,3 @@
+[submodule "extract-content-javascript"]
+	path = extract-content-javascript
+	url = https://github.com/hatena/extract-content-javascript.git
