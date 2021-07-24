@@ -15,9 +15,12 @@ $ git submodule update --init --recursive
 $ npm i
 $ npm run build
 ```
+# Confirmed environment
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge): Version 91.0.864.71 (Official build) (64-bit)
+- [Google Chrome](https://www.google.com/chrome/): Version 91.0.4472.164 (Official Build) (64-bit)
+- [Firefox Browser](https://www.mozilla.org/en-US/firefox/): Version  86.0.1 (64-bit)
 
 # License
-
 Copyright (c) 2021 Fumikazu Fujiwara <github@ze.gs>
 
 Released under the MIT license.
